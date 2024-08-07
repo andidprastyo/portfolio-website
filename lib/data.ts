@@ -6,6 +6,7 @@ import metrobite from "@/public/metrobite.png";
 import superstore from "@/public/superstore.png";
 import jdih from "@/public/jdih.png";
 import tea from "@/public/teh_classification.jpg"
+import wades from "@/public/wades.png"
 
 export const links = [
   {
@@ -50,6 +51,12 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title:"WADES",
+    description:"WADES is an innovative WhatsApp bot and web-based system for Kelurahan Dinoyo",
+    tags:["React", "Laravel", "MySQL", "Tailwind", "Node.js"],
+    imageUrl:wades,
+  },
   {
     title:"Legalytics JDIH Kemenkeu",
     description:"Legal analytics web-app for Kementrian Keuangan Republik Indonesia to analyze legal documents and extract insights.",
