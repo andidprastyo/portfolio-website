@@ -7,6 +7,7 @@ import superstore from "@/public/superstore.png";
 import jdih from "@/public/jdih.png";
 import tea from "@/public/teh_classification.jpg"
 import wades from "@/public/wades.png"
+import beam_locator from "@/public/beam_locator.png"
 
 export const links = [
   {
@@ -36,7 +37,7 @@ export const experiencesData = [
     title: "Majoring in IT - State Polytechnic of Malang",
     location: "Malang, East Java",
     description:
-      "Studying Information Technology at State Polytechnic of Malang with a high GPA of 3,63. Appointed as the General Secretary of EEPROM Polinema Robotics Community. ",
+      "Studying Information Technology at State Polytechnic of Malang with deep interest in data science field.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - Present",
   },
@@ -59,6 +60,12 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title:"Beam Locator",
+    description:"Beam Locator is a web-based system to locate satellite beams and their coverage area on the map.",
+    tags:["Streamlit", "Pandas", "Plotly", "Python"],
+    imageUrl:beam_locator,
+  },
   {
     title:"WADES",
     description:"WADES is an innovative WhatsApp bot and web-based system for Kelurahan Dinoyo",
