@@ -21,18 +21,14 @@ export default function About() {
       <p className="mb-3">
         I'm an undergraduate student majoring in{" "}
         <span className="font-medium">Information Technology</span>, I decided to pursue my
-        passion for applied statistics, data analysis, machine learning and also web development.{" "}
-        My core stack for web development
-        is{" "}
-        <span className="font-medium">
-          Next.js, Laravel, TypeScript, Tailwind-CSS, Prisma and OpenSearch
-        </span>. I am also familiar with {" "}
+        passion for applied statistics, data analysis, machine learning and AI.{" "}
+        I'm familiar with {" "}
         <span className="font-medium">
           Python, Pandas, Scikit-Learn, Microsoft Excel, SQL, Tableau, Power BI, and Google Looker Studio
         </span> for data analysis and predictive modelling. {" "}
         I am always looking to
-        learn new technologies. I am currently looking for an{" "}
-        <span className="font-medium">internship</span> in the field of data science or web development.
+        learn new technologies. I am currently looking for some{" "}
+        <span className="font-medium">opportunities</span> in the field of data science.
       </p>
     </motion.section>
   );

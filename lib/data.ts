@@ -48,6 +48,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Feb - June 2024",
   },
+  {
+    title: "Data Scientist",
+    location: "Bogor, West Java",
+    description:
+      "I took an internship program at PT Telkom Satelit Indonesia as a Data Scientist. I was responsible for developing a Beam mapping web-app using Streamlit, Pandas, and Plotly for the data visualization and Python for the data processing. I also developed a RAG system with LLaMA 3.2-1B models for internal data analysis.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug - Dec 2024",
+  }
 ] as const;
 
 export const projectsData = [
@@ -94,19 +102,10 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "JavaScript",
-  "TypeScript",
-  "Next.js",
+  "Computer Vision",
+  "Large Language Models",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "PostgreSQL",
   "Python",
-  "Flask",
-  "OpenSearch",
-  "Tableau",
-  "Figma",
-  "Microsoft Power BI",
-  "Google Looker Studio",
+  "FastAPI",
+  "Flask"
 ] as const;
