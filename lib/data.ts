@@ -42,16 +42,16 @@ export const experiencesData = [
     date: "2021 - Present",
   },
   {
-    title: "Data/Software Engineer",
-    location: "Central Jakarta, DKI Jakarta",
+    title: "Kementerian Keuangan RI",
+    location: "Data/Software Engineer",
     description:
       "I took an MSIB Batch 6 internship program at Kementrian Keuangan Republik Indonesia as a Data/Software Engineer. I was responsible for developing a legal analytics web-app using NextJS, TailwindCSS, and Prisma for the web development and Python for data and insight extraction.",
     icon: React.createElement(CgWorkAlt),
     date: "Feb - June 2024",
   },
   {
-    title: "Data Scientist",
-    location: "Bogor, West Java",
+    title: "PT Telkom Satelit Indonesia",
+    location: "Data Scientist",
     description:
       "I took an internship program at PT Telkom Satelit Indonesia as a Data Scientist. I was responsible for developing a Beam mapping web-app using Streamlit, Pandas, and Plotly for the data visualization and Python for the data processing. I also developed a RAG system with LLaMA 3.2-1B models for internal data analysis.",
     icon: React.createElement(CgWorkAlt),
